@@ -106,7 +106,7 @@ blockquote { background:transparent url('images/blockquote.png') no-repeat top l
 */
 .region-sidebar-first .block .content, .region-sidebar-second .block .content  { border:1px solid #ffffff; 
 -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; 
-padding: 20px; overflow:hidden; margin:0 0 40px 0;
+padding: 20px; overflow:hidden; margin:0 0 40px 100px;
  /* shadow */
 -webkit-box-shadow: 0 2px 6px #efefef inset;  -moz-box-shadow:0 2px 6px #efefef inset;  box-shadow:0 2px 6px #efefef inset; }
 
@@ -538,3 +538,9 @@ ul.primary, ul.tabs { clear:both; margin:10px 0 35px 0; white-space: normal }
 ul.primary li, ul.tabs li { padding:10px 0; line-height:130%; }
 
 ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-block; }
+
+/* HBS */
+#sidebar_second
+{
+	margin-left: 40px;
+}
